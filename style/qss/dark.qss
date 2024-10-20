@@ -1,0 +1,83 @@
+QWidget {
+    background-color: #222831;
+    border-radius: 10px;
+}
+
+QGroupBox {
+    font-size: 20px;
+    background-color: #222831;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+LineEdit {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+QDialog {
+    background: #222831;
+}
+
+QStackedWidget  {
+    background-color: #4E781D;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FF4800, stop:1 #222831);
+}
+
+QToolTip {
+    background-color: #79B92D;
+    color: white;
+    border: #252525 solid 1px;
+}
+
+QSizeGrip {
+    background: transparent;
+}
+
+ScrollArea {
+    border: none;
+    background-color: #79B92D;
+}
+
+ComboBox {
+    font-size: 20px;
+}
+
+LineEdit {
+    font-size: 35px;
+}
+
+BodyLabel {
+    font-size: 35px;
+    background-color: #1B1F26;
+}
+
+PrimaryPushButton {
+    font-size: 20px;
+    background-color: #FF4800;
+}
+
+PrimaryPushButton {
+    font-size: 35px;
+    background-color: #ECDFCC;
+}
+
+QToolBar {
+    background-color: #1B1F26;
+    border: none;
+}
+
+#attention_window_elem {
+    font-size: 20px;
+}
+
+QTextEdit {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50; /* Зелена рамка */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Легкий ефект тіні */
+}
+
